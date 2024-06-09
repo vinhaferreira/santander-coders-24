@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários HTML</title>
+</head>
+
+<body>
+  <main>
+    <h1>Formulário</h1>
+    <hr>
+    <br>
+    <form action="" method="get">
+      <div>
+        <label for="texto">Nome:</label>
+        <!-- <input type="text" id="texto" placeholder="Informe o seu nome"> -->
+        <input type="text" id="texto" name="nome"">
+      </div>
+
+      <div>
+        <label for=" senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+      </div>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" id="data" name="data">
+      </div>
+      <div>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone">
+      </div>
+      <div>
+        <label for="hora">Horário:</label>
+        <input type="time" id="hora" name="hora">
+      </div>
+      <div>
+        <label for="hora">Horário:</label>
+        <input type="checkbox" id="hora" name="hora" checked>
+        <!-- checked ja vem marcado -->
+      </div>
+      <div>
+
+        <input type="submit" id="hora" name="hora" checked>
+        <!-- checked ja vem marcado -->
+      </div>
+      <!-- type number- só aceita numeros -->
+      <!-- file: escolhe um arquivo -->
+      <!-- url: semanticamente é importante  -->
+      <!-- color vc pode escolher um cor -->
+      <!-- range barrinha de 0 a 100 pode color value 100 ou que o max=200 e o min=100 -->
+      <!-- radio so deixa marcar uma caixinha -->
+      <!-- reset limpa o formulario , value coloca o nome dentro de que quiser -->
+      <!-- submit tem atributo value envar por exemplo nao precisa de label envia o formulario -->
+
+      <textarea name="bio" id="bio"></textarea>
+      <div>
+        <br><br>
+        <select name="select" id="select">
+          <option value="" disabled selected>Selecione uma das opções</option>
+          <option value="receita">Receita</option>
+          <option value="despesa">Despesa</option>
+          <option value="transferência">Transferência</option>
+        </select>
+      </div>
+    </form>
+  </main>
+
+</body>
+
+</html>
