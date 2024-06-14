@@ -1,6 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* root é uma pseudo classe */
+:root {
+  /* padrao é 16 */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "times new roman";
+}
 h1 {
-  color: #9f2525
-  background-color: darkolivegreen;
-  font-size: 96px;
+  color: blueviolet;
+  font-size: 9.6rem;
   font-weight: 900;
+  font-style: oblique;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-align: center;
+}
+h2 {
+  font-size: 6.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "roboto", Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1.8rem;
+  text-align: justify;
+  text-indent: 90px;
+}
+a {
+  font-size: 2.4rem;
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: coral;
+}
+.bg {
+  height: 500px;
+  width: 100%;
+  background-color: #555;
+  background-image: url(https://images.unsplash.com/photo-1718116088537-212b192d1ad9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
