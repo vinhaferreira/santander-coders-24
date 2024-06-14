@@ -17,7 +17,7 @@ main {
   padding-top: 7rem;
 }
 
-.menu {
+nav.menu {
   position: fixed;
   background-color: steelblue;
   width: 100%;
@@ -59,7 +59,26 @@ table {
   font-size: 2.4rem;
   border-collapse: separate;
 }
-
+a {
+  font-size: 2.4rem;
+  color: black;
+}
+/* a:visited {
+  color: green;
+} */
+a:hover {
+  color: coral;
+}
+.bg {
+  height: 500px;
+  width: 100%;
+  background-color: #555;
+  background-image: url(https://images.unsplash.com/photo-1718116088537-212b192d1ad9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2NHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
 ul,
 ol {
   padding-left: 3.2rem;

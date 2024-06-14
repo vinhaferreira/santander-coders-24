@@ -10,7 +10,12 @@
 
 body {
   font-family: "times new roman";
+  font-size: 1.8rem;
 }
+main {
+  padding-top: 7rem;
+}
+
 h1 {
   color: blueviolet;
   font-size: 9.6rem;
