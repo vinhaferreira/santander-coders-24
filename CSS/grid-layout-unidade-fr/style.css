@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding-top: 5rem;
+}
+
+.menu {
+  /* position: fixed; */
+  background-color: deepskyblue;
+  width: 100%;
+  height: 5rem;
+  /* Colocar prioridade aos outros elementos */
+  z-index: 1;
+}
+
+.boxes {
+  /* position: relative; */
+  /* Usando flexbox */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* Usando flexbox */
+  flex-wrap: wrap;
+  height: 5rem;
+  width: 12rem;
+  margin: 15px;
+  padding: 15px;
+  background-color: tomato;
+  color: aliceblue;
+  border: 5px solid rebeccapurple;
+  display: inline-block;
+  border-radius: 10px;
+
+  /* Usando position, por padrão vem setado static */
+  position: static;
+}
+
+.listaContatos h2 {
+  top: 0px;
+  position: sticky;
+  background-color: brown;
+}
+
+/* Pegando apenas a primeira box */
+.box:nth-child(1) {
+  position: absolute;
+  /* Coordenadas na tela */
+  top: 30px;
+  left: 100px;
+}
+
+.box:nth-child(2) {
+  /* Deixa o elemento fixo na tela */
+  /* position: fixed; */
+  top: 15px;
+  right: 30px;
+}
+
+/* DISPLAY FLEX */
+/* muito usado para posicionamento em tela */
